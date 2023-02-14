@@ -5,7 +5,7 @@ class Conversation {
 
     // a list of our canned phrases
     // jordan mentioned something about making this static?
-    String[] defaultResponse = {"cool!", "nice.", "okie dokie.", "that's interesting."};
+    String[] defaultResponse = {"cool!\n", "nice.\n", "okie dokie.\n", "that's interesting.\n"};
 
     // im gonna be putting the whole convo into this list that is printed as the transcript
     String[] transcript = {};
@@ -40,7 +40,7 @@ class Conversation {
       else if (howDay.equals("are"))
         System.out.println(howDay.replace("are", "am"));
       else{
-        int rand = (int) (Math.random()*(defaultResponse.length+1)) - 1; // maybe -1
+        int rand = (int) (Math.random()*(defaultResponse.length+1) -1); // maybe -1
         System.out.print(defaultResponse[rand]);
       }
 
