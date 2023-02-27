@@ -1,0 +1,9 @@
+resubmit/regrade:
+2/26/23
+
+I am resubmiting HW 3 for a regrade because the program was
+running an extra round because I was asking outside of the
+loop. I made a change to fix this. I kept the question out
+of the loop, however set the bounds for the loop to be one
+less than the user inputs, therefore the first question is
+accounted for.
